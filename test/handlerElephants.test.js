@@ -31,4 +31,9 @@ describe('Testes da função HandlerElephants', () => {
     const expected = ['Friday', 'Saturday', 'Sunday', 'Tuesday'];
     expect(actual).toEqual(expected);
   });
+  it('testa se a função está recebendo uma string como parâmetro', () => {
+    const actual = handlerElephants(1);
+    const expected = 'Parâmetro inválido, é necessário uma string';
+    expect(actual).toEqual(expected);
+  });
 });

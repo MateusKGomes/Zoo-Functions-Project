@@ -1,13 +1,9 @@
-const { species, hours } = require('../data/zoo_data');
-const data = require('../data/zoo_data');
+// const { species, hours } = require('../data/zoo_data');
+// const data = require('../data/zoo_data');
 
-const getDaysWeek = (param) => species.find((specie) => specie.name === param).availability;
+// function getSchedule(scheduleTarget) {
 
-console.log(getDaysWeek('lions'));
+// }
+// console.log(getSchedule());
 
-function getSchedule(scheduleTarget) {
-
-}
-console.log(getSchedule());
-
-module.exports = getSchedule;
+// module.exports = getSchedule;
